@@ -1,0 +1,145 @@
+/* General app container */
+.app-container {
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(145deg, #ffdde1, #ee9ca7);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+/* Page heading */
+.app-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #6e0d25;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+/* Upload section */
+.upload-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* File input styling */
+.file-input {
+  padding: 8px 12px;
+  border: 2px solid #6e0d25;
+  border-radius: 8px;
+  background-color: #fff0f5;
+  cursor: pointer;
+}
+
+/* Upload button styling */
+.upload-btn {
+  padding: 10px 20px;
+  background-color: #6e0d25;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #a81b3a;
+}
+
+/* File list */
+.file-list {
+  margin-bottom: 30px;
+  background-color: #fff0f5;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.file-list h3 {
+  margin-bottom: 10px;
+  color: #6e0d25;
+}
+
+.file-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.file-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ffccd5;
+}
+
+/* Chat section */
+.chat-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Chat input */
+.chat-input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 2px solid #6e0d25;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Ask button */
+.ask-btn {
+  padding: 12px 20px;
+  background-color: #6e0d25;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  align-self: flex-start;
+}
+
+.ask-btn:hover {
+  background-color: #a81b3a;
+}
+
+/* Chat response */
+.chat-response {
+  margin-top: 20px;
+  min-height: 50px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffe6ec;
+  border: 1px solid #6e0d25;
+  color: #333;
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+
+/* Loader */
+.loader-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #6e0d25;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  animation: spin 1s linear infinite;
+}
+
+/* Loader animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
