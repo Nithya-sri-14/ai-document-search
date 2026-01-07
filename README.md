@@ -1,3 +1,4 @@
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/0b651e39-c8ae-47a3-bfa1-e9485956a499" />
 # 📄 AI Document Search & Chat Application
 
 An **AI-powered web application** that allows users to upload PDF documents and ask questions about their content using **local Large Language Models (LLMs)** via **Ollama**.
@@ -206,5 +207,3 @@ Technology Enthusiast | AI & Web Development
 ## ⭐ GitHub
 
 If you like this project, don’t forget to ⭐ star the repository!
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/0b651e39-c8ae-47a3-bfa1-e9485956a499" />
-
